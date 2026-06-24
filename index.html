@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Memes</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            background-color: #121212; 
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 { margin-bottom: 30px; color: #00ff88; }
+        .galeria { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 20px; 
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .meme { 
+            background: #1e1e1e; 
+            padding: 15px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+            transition: transform 0.2s;
+        }
+        .meme:hover { transform: scale(1.03); }
+        .meme img { 
+            max-width: 280px; 
+            height: auto; 
+            border-radius: 8px; 
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Minha Galeria de Memes 🤣</h1>
+
+    <div class="galeria">
+        <div class="meme"><img src="images.jpeg" alt="Meme"></div>
+        <div class="meme"><img src="images (1).jpeg" alt="Meme 1"></div>
+        <div class="meme"><img src="images (2).jpeg" alt="Meme 2"></div>
+        <div class="meme"><img src="images (3).jpeg" alt="Meme 3"></div>
+        <div class="meme"><img src="images (4).jpeg" alt="Meme 4"></div>
+        <div class="meme"><img src="images (5).jpeg" alt="Meme 5"></div>
+        <div class="meme"><img src="images (6).jpeg" alt="Meme 6"></div>
+        <div class="meme"><img src="images (7).jpeg" alt="Meme 7"></div>
+    </div>
+
+</body>
+</html>
